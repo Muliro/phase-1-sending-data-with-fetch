@@ -28,7 +28,7 @@ function submitData(name, mail){
     })
     .then(function(object){
      const newId = object.id
-     bodyTag.innerHTML = `${object.id}`;
+     bodyTag.innerHTML = `<p> ${object.id} </p>`;
     })
 
 }
